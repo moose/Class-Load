@@ -55,3 +55,7 @@ sub _is_class_loaded {
 }
 
 1;
+
+=for Pod::Coverage is_class_loaded
+
+=cut

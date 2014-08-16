@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+
+0.22     2014-08-16
     - document some of the caveats to using this module, and refer to
       Module::Runtime as an alternative
 

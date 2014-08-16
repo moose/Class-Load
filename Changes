@@ -1,6 +1,8 @@
 Revision history for {{$dist->name}}
 
 {{$NEXT}}
+    - document some of the caveats to using this module, and refer to
+      Module::Runtime as an alternative
 
 0.21     2014-02-09
     - repository moved to the github moose organization

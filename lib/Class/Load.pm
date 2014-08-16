@@ -306,6 +306,17 @@ This is useful for using if you want a fallback module system, i.e.:
 That way, if $foo does exist, but can't be loaded due to error, you won't
 get the behaviour of it simply not existing.
 
+=head1 CAVEATS
+
+Because of some of the heuristics that this module uses to infer whether a
+module has been loaded, some false positives may occur in C<is_class_loaded>
+checks (which are also performed internally in other interfaces) -- if a class
+has started to be loaded but then dies, it may appear that it has already been
+loaded, which can cause other things to make the wrong decision.
+L<Module::Runtime> doesn't have this issue, but it also doesn't do some things
+that this module does -- for example gracefully handle packages that have been
+defined inline in the same file as another package.
+
 =head1 SEE ALSO
 
 =over 4

@@ -1,6 +1,7 @@
 use strict;
 use warnings;
 package Class::Load;
+# ABSTRACT: A working (require "Class::Name") and more
 
 use base 'Exporter';
 use Data::OptList 'mkopt';
@@ -200,9 +201,6 @@ sub _croak {
 }
 
 1;
-
-# ABSTRACT: a working (require "Class::Name") and more
-
 __END__
 
 =head1 SYNOPSIS

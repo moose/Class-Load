@@ -11,6 +11,7 @@ use Module::Runtime 0.012 qw(
     use_module
 );
 use Try::Tiny;
+use namespace::clean;
 
 {
     my $loader = Module::Implementation::build_loader_sub(

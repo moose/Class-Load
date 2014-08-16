@@ -6,6 +6,7 @@ use Module::Runtime 'is_module_name';
 use Package::Stash 0.14;
 use Scalar::Util 'blessed', 'reftype';
 use Try::Tiny;
+use namespace::clean;
 
 sub is_class_loaded {
     my $class   = shift;

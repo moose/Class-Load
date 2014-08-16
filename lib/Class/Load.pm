@@ -1,6 +1,7 @@
-package Class::Load;
 use strict;
 use warnings;
+package Class::Load;
+
 use base 'Exporter';
 use Data::OptList 'mkopt';
 use Module::Implementation 0.04;

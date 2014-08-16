@@ -329,6 +329,10 @@ over its competitors.
 This module was designed to be used anywhere you have
 C<if (eval "require $module"; 1)>, which occurs in many large projects.
 
+=item L<Module::Runtime>
+
+A leaner approach to loading modules
+
 =back
 
 =cut

@@ -1,6 +1,6 @@
 Revision history for Class-Load
 
-{{$NEXT}}
+0.23     2015-06-25
     - remove use of namespace::clean
 
 0.22     2014-08-16

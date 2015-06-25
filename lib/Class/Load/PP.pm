@@ -2,6 +2,8 @@ use strict;
 use warnings;
 package Class::Load::PP;
 
+our $VERSION = '0.23';
+
 use Module::Runtime 'is_module_name';
 use Package::Stash 0.14;
 use Scalar::Util 'blessed', 'reftype';

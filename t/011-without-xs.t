@@ -1,7 +1,6 @@
 use strict;
 use warnings;
 use Test::More 0.88;
-use Test::Fatal;
 
 use Test::Requires {
     'Test::Without::Module' => 0,

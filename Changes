@@ -1,6 +1,8 @@
 Revision history for Class-Load
 
 {{$NEXT}}
+    - fix test to handle altered Test::Without::Module exception message
+      (PR#2, Paul Howarth)
 
 0.23     2015-06-25
     - remove use of namespace::clean

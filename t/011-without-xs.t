@@ -2,11 +2,9 @@ use strict;
 use warnings;
 use Test::More 0.88;
 
-use Test::Requires {
-    'Test::Without::Module' => 0,
-};
+use Test::Needs 'Test::Without::Module';
 
-use Test::Without::Module 'Class::Load::XS';
+Test::Without::Module->import('Class::Load::XS');
 
 {
     my @warnings;

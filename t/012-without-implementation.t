@@ -3,11 +3,9 @@ use warnings;
 use Test::More 0.88;
 use Test::Fatal;
 
-use Test::Requires {
-    'Test::Without::Module' => 0,
-};
+use Test::Needs 'Test::Without::Module';
 
-use Test::Without::Module qw( Class::Load::PP Class::Load::XS );
+Test::Without::Module->import(qw( Class::Load::PP Class::Load::XS ));
 
 {
     like(

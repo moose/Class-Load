@@ -12,7 +12,7 @@ use Test::Without::Module qw( Class::Load::PP Class::Load::XS );
 {
     like(
         exception { require Class::Load },
-        qr!Can't locate Class/Load/PP\.pm in \@INC|Class.Load.PP\.pm did not return a true value!,
+        qr!Can't locate Class.Load.PP\.pm in \@INC|Class.Load.PP\.pm did not return a true value!,
         'error when loading Class::Load and no implementation is available includes errors from trying to load modules'
     );
 }

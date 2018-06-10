@@ -4,7 +4,7 @@ package Class::Load;
 # ABSTRACT: A working (require "Class::Name") and more
 # KEYWORDS: class module load require use runtime
 
-our $VERSION = '0.25';
+our $VERSION = '0.26';
 
 use base 'Exporter';
 use Data::OptList 0.110 ();

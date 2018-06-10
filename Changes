@@ -1,5 +1,7 @@
 Revision history for Class-Load
 
+{{$NEXT}}
+
 0.25     2018-06-10 20:55:10Z
     - merged required and recommended Data::OptList version prerequisite, to
       work around CPAN.pm bug (RT#123447)

@@ -1,6 +1,8 @@
 Revision history for Class-Load
 
 {{$NEXT}}
+    - merged required and recommended Data::OptList version prerequisite, to
+      work around CPAN.pm bug (RT#123447)
 
 0.24     2017-04-10 21:12:31Z
     - fix test to handle altered Test::Without::Module exception message

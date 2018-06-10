@@ -7,7 +7,7 @@ package Class::Load;
 our $VERSION = '0.25';
 
 use base 'Exporter';
-use Data::OptList ();
+use Data::OptList 0.110 ();
 use Module::Implementation 0.04;
 use Module::Runtime 0.012 ();
 use Try::Tiny;
